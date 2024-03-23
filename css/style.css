@@ -14,9 +14,6 @@
 
 html {
   scroll-behavior: smooth;
-  background-size: cover;
-  background-position: center;
-  
 }
 
 body {
@@ -180,7 +177,6 @@ body {
     height: 100vh;
     transition: 0.2s;
   }
-  
   .navbar .navbar-nav.active {
     right: 0;
   }
@@ -215,43 +211,15 @@ body {
 /* Hp */
 @media (max-width: 450px) {
   html {
-    font-size: 70%;
-    width: 80%
+    font-size: 55%;
   }
 
   .about .row .about.img img {
     background-size: cover;
-    height: 20rem;
+    height: 24rem;
     object-fit: cover;
-  }
-    .navbar .navbar-nav {
-    position: cover;
-    top: 100%;
-    right: -100%;
-    left: -100
-    background-color: #fff;
-    width: 30rem;
-    height: 100vh;
-    transition: 0.2s;
-    background-size: cover;
-    object-fit: cover;
-    display: block;
-  }
-  
-  .navbar .navbar-nav.active {
-    right: 0;
-    left: 0;
-  }
-  
-  .about .row {
-    flex-wrap: wrap;
-    display: block;
   }
 }
-/*  Hp Sedang  */
-@media screen and (min-width: 550px) {
-     width: 33%;
-   }
 /* Media Queries End */
 
 /* About Section Start */
