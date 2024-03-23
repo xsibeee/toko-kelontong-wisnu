@@ -180,6 +180,7 @@ body {
     height: 100vh;
     transition: 0.2s;
   }
+  
   .navbar .navbar-nav.active {
     right: 0;
   }
@@ -235,6 +236,11 @@ body {
     background-size: cover;
     object-fit: cover;
     display: block;
+  }
+  
+  .navbar .navbar-nav.active {
+    right: 0;
+    left: 0;
   }
   
   .about .row {
