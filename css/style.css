@@ -14,6 +14,8 @@
 
 html {
   scroll-behavior: smooth;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 body {
@@ -212,6 +214,7 @@ body {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+    width: 50%
   }
 
   .about .row .about.img img {
@@ -228,6 +231,10 @@ body {
     right: 0;
   }
 }
+/*  Hp Sedang  */
+@media screen and (min-width: 550px) {
+     width: 33%;
+   }
 /* Media Queries End */
 
 /* About Section Start */
