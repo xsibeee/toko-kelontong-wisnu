@@ -14,8 +14,6 @@
 
 html {
   scroll-behavior: smooth;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 body {
