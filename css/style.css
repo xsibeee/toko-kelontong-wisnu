@@ -221,7 +221,7 @@ body {
 
   .about .row .about.img img {
     background-size: cover;
-    height: 30rem;
+    height: 20rem;
     object-fit: cover;
   }
     .navbar .navbar-nav {
