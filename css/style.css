@@ -237,10 +237,6 @@ body {
   .about .row {
     flex-wrap: wrap;
   }
-
-    .navbar .navbar-nav.active {
-    right: 0;
-  }
 }
 /*  Hp Sedang  */
 @media screen and (min-width: 550px) {
