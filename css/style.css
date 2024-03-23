@@ -213,8 +213,8 @@ body {
 /* Hp */
 @media (max-width: 450px) {
   html {
-    font-size: 100%;
-    width: 100%
+    font-size: 70%;
+    width: 80%
   }
 
   .about .row .about.img img {
