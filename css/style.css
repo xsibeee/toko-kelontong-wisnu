@@ -219,6 +219,14 @@ body {
     height: 24rem;
     object-fit: cover;
   }
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+    .navbar .navbar-nav.active {
+    right: 0;
+  }
 }
 /* Media Queries End */
 
