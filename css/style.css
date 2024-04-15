@@ -20,7 +20,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: white;
-  min-height: 4000px;
 }
 
 /* Navbar Start */
@@ -35,7 +34,6 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 9999;
 }
 
 .navbar .navbar-logo {
@@ -159,7 +157,7 @@ body {
 }
 
 /* Tablet */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   html {
     font-size: 62.5%;
   }
@@ -173,7 +171,7 @@ body {
     top: 100%;
     right: -100%;
     background-color: #fff;
-    width: 30rem;
+    width: 25rem;
     height: 100vh;
     transition: 0.2s;
   }
@@ -185,7 +183,51 @@ body {
     color: var(--bg);
     display: block;
     margin: 1.5rem;
-    pad: 0.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .navbar .navbar-nav a::after {
+    transform-origin: 0 0;
+  }
+
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.2);
+  }
+}
+
+/* Hp */
+@media only screen and (max-width: 476px) {
+  html {
+  font-size: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  }
+
+  #menu {
+    display: inline-block;
+  }
+
+  .navbar .navbar-nav {
+  position: absolute;
+  width: 95%;
+  background-color: #fff;
+  width: 25rem;
+  height: 100vh;
+  transition: 0.2s;
+  display: table-row !important;
+  }
+
+  .navbar .navbar-nav.active {
+    right: 0;
+  }
+
+  .navbar .navbar-nav a {
+    color: var(--bg);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
     font-size: 2rem;
   }
 
@@ -198,26 +240,11 @@ body {
   }
 
   .about .row {
-    flex-wrap: wrap;
+    background-color: white;
   }
 
-  .about .row .about.img img {
-    background-size: cover;
-    height: 24rem;
-    object-fit: cover;
-  }
-}
-
-/* Hp */
-@media (max-width: 450px) {
-  html {
-    font-size: 55%;
-  }
-
-  .about .row .about.img img {
-    background-size: cover;
-    height: 24rem;
-    object-fit: cover;
+  .content h3 p {
+    text-align: center;
   }
 }
 /* Media Queries End */
@@ -296,12 +323,41 @@ body {
   text-align: center;
 }
 
-.Menu .row .menu-card img {
-  border-radius: 50%;
-  position: relative;
-  margin: auto;
-  display: grid;
-  width: 100%;
+.Menu {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Menu .row .menu1 .img1 {
+  border-radius: 15%;
+}
+
+.Menu .row .menu2 .img2 {
+  border-radius: 25%;
+  margin: 1rem;
+}
+
+.Menu .row .menu3 .img3 {
+  border-radius: 20%;
+  margin-right: 1rem;
+  padding-top: 2rem;
+}
+
+.Menu .row .menu4 .img4 {
+  border-radius: 15%;
+}
+
+.Menu .row .menu5 .img5 {
+  border-radius: 10%;
+}
+
+.Menu .row .menu1,
+.menu2,
+.menu3,
+.menu4,
+.menu5 h3 {
+  font-size: 2rem;
 }
 
 .Menu .row .menu-card .menu-card-title {
