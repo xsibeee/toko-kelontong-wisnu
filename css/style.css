@@ -204,7 +204,7 @@ body {
   left: 0;
   right: 0;
   }
-
+  
   #menu {
     display: inline-block;
   }
@@ -246,6 +246,43 @@ body {
   .content h3 p {
     text-align: center;
   }
+
+  .Menu {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Menu .row .menu1 .img1 {
+  border-radius: 15%;
+}
+
+.Menu .row .menu2 .img2 {
+  border-radius: 25%;
+  margin: 1rem;
+}
+
+.Menu .row .menu3 .img3 {
+  border-radius: 20%;
+  margin-right: 1rem;
+  padding-top: 2rem;
+}
+
+.Menu .row .menu4 .img4 {
+  border-radius: 15%;
+}
+
+.Menu .row .menu5 .img5 {
+  border-radius: 10%;
+}
+
+.Menu .row .menu1,
+.menu2,
+.menu3,
+.menu4,
+.menu5 h3 {
+  font-size: 2rem;
+}
 }
 /* Media Queries End */
 
